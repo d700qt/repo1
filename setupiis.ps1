@@ -11,3 +11,4 @@ New-Item -ItemType Directory c:\temp
 Install-WindowsFeature web-server -IncludeManagementTools
 
 # Configure iis
+"<html><body><h1>${env:computername}</h1></body></html>" > iisstart.htm
